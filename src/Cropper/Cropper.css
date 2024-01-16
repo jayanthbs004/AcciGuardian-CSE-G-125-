@@ -1,0 +1,48 @@
+.field{
+    background-color: rgb(226, 226, 226);
+    width: 90vw;
+    max-height: 96%;
+    min-height: 460px;
+    border: 2px solid rgb(87, 87, 87);
+    position: relative;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.field-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.field .icon{
+    font-size: 28px !important;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.img-container{
+    overflow-y: scroll;
+    height: 90vh
+}
+
+.img-container img{
+    width: 100%
+}
+
+
+.field button{
+    padding: 8px 10px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(143, 35, 214);
+    cursor: pointer;
+    margin: 10px;
+    outline: 0;
+    border: 0;
+}

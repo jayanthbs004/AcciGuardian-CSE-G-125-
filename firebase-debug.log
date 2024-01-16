@@ -1,0 +1,147 @@
+[debug] [2024-01-10T06:38:38.742Z] ----------------------------------------------------------------------
+[debug] [2024-01-10T06:38:38.746Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\JayanthBS004\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2024-01-10T06:38:38.746Z] CLI Version:   13.0.2
+[debug] [2024-01-10T06:38:38.747Z] Platform:      win32
+[debug] [2024-01-10T06:38:38.747Z] Node Version:  v18.18.2
+[debug] [2024-01-10T06:38:38.762Z] Time:          Wed Jan 10 2024 12:08:38 GMT+0530 (India Standard Time)
+[debug] [2024-01-10T06:38:38.763Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-10T06:38:38.767Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-01-10T06:38:38.932Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-10T06:38:38.932Z] > authorizing via signed-in user (jbswolf007@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\JayanthBS004\OneDrive\Desktop\crime alerter\crime alerter
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-01-10T06:38:39.534Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-01-10T06:38:39.534Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-10T06:38:43.724Z] Using project from CLI flag: crime-alerter
+[debug] [2024-01-10T06:38:43.725Z] > refreshing access token with scopes: []
+[debug] [2024-01-10T06:38:43.726Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-10T06:38:43.726Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-10T06:38:43.897Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-01-10T06:38:43.897Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-10T06:38:43.899Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crime-alerter [none]
+[debug] [2024-01-10T06:38:44.111Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crime-alerter 401
+[debug] [2024-01-10T06:38:44.112Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crime-alerter {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-01-10T06:38:44.113Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-01-10T06:38:44.267Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\JayanthBS004\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\JayanthBS004\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project crime-alerter. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-01-10T06:50:53.471Z] ----------------------------------------------------------------------
+[debug] [2024-01-10T06:50:53.474Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\JayanthBS004\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2024-01-10T06:50:53.474Z] CLI Version:   13.0.2
+[debug] [2024-01-10T06:50:53.475Z] Platform:      win32
+[debug] [2024-01-10T06:50:53.475Z] Node Version:  v18.18.2
+[debug] [2024-01-10T06:50:53.476Z] Time:          Wed Jan 10 2024 12:20:53 GMT+0530 (India Standard Time)
+[debug] [2024-01-10T06:50:53.476Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-10T06:50:53.572Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-10T06:50:53.572Z] > authorizing via signed-in user (jbswolf007@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\JayanthBS004\OneDrive\Desktop\crime alerter\crime alerter
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-10T06:51:03.561Z] Using project from CLI flag: crime-alerter
+[debug] [2024-01-10T06:51:03.563Z] > refreshing access token with scopes: []
+[debug] [2024-01-10T06:51:03.567Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-10T06:51:03.567Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-10T06:51:03.811Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-01-10T06:51:03.811Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-10T06:51:03.812Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crime-alerter [none]
+[debug] [2024-01-10T06:51:04.908Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crime-alerter 401
+[debug] [2024-01-10T06:51:04.908Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crime-alerter {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-01-10T06:51:04.909Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-01-10T06:51:05.067Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\JayanthBS004\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\JayanthBS004\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project crime-alerter. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-01-10T06:52:19.374Z] ----------------------------------------------------------------------
+[debug] [2024-01-10T06:52:19.377Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\JayanthBS004\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2024-01-10T06:52:19.377Z] CLI Version:   13.0.3
+[debug] [2024-01-10T06:52:19.378Z] Platform:      win32
+[debug] [2024-01-10T06:52:19.378Z] Node Version:  v18.18.2
+[debug] [2024-01-10T06:52:19.379Z] Time:          Wed Jan 10 2024 12:22:19 GMT+0530 (India Standard Time)
+[debug] [2024-01-10T06:52:19.379Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-10T06:52:19.476Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-10T06:52:19.477Z] > authorizing via signed-in user (jbswolf007@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\JayanthBS004\OneDrive\Desktop\crime alerter\crime alerter
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-10T06:52:21.063Z] Using project from CLI flag: crime-alerter
+[debug] [2024-01-10T06:52:21.065Z] > refreshing access token with scopes: []
+[debug] [2024-01-10T06:52:21.068Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-10T06:52:21.068Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-10T06:52:21.352Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-01-10T06:52:21.353Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-10T06:52:21.353Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crime-alerter [none]
+[debug] [2024-01-10T06:52:21.675Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crime-alerter 401
+[debug] [2024-01-10T06:52:21.675Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crime-alerter {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-01-10T06:52:21.676Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-01-10T06:52:21.830Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\JayanthBS004\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\JayanthBS004\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project crime-alerter. Please make sure the project exists and your account has permission to access it.

@@ -1,0 +1,40 @@
+.center-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 20px;
+    font-size: 20px;
+    /* Increased font size */
+    background: linear-gradient(to right, lightblue, darkblue);
+    color: white;
+}
+
+.center-div label,
+.center-div input,
+.center-div button {
+    margin-bottom: 10px;
+}
+
+.center-div div {
+    text-align: left;
+    background: rgba(0, 0, 0, 0.4);
+    /* Black background with transparency */
+    backdrop-filter: blur(10px);
+    /* Glass-like effect */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    /* White text for better contrast */
+}
+
+.center-div h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    /* Increased font size for heading */
+}
+
+.center-div p {
+    margin-bottom: 10px;
+}

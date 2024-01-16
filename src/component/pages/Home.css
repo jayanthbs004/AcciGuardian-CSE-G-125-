@@ -1,0 +1,18 @@
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    background-color: #04b2f7;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 4px 5px 4px rgb(255, 255, 255);
+    left: 15px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}

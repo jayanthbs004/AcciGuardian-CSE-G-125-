@@ -1,0 +1,24 @@
+.complain {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  border-radius: 15px;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.complain__name,
+.complain__address,
+.complain__city,
+.complain__pincode,
+.complain__crime,
+.complain__mobno {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#viewComplain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
